@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    
     <meta charset="UTF-8">
     <meta
       name="viewport"
@@ -13,10 +12,9 @@
   </head>
   <body>
     <form action="catalog" method="post">
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>Personal information</legend>
 
-        
         <label class="form-field">
           Surname:
           <input 
@@ -62,7 +60,7 @@
           >
         </label> 
       </fieldset>     
-      <fieldset>
+      <fieldset class="selector">
         <legend>Registration</legend>
 
         <label class="form-field">
@@ -89,7 +87,6 @@
         <legend>An interesting fact about you!</legend>
         <div class="form-field">
             Do you love cats?
-
           <label>
             <input 
               type="radio" 
@@ -116,15 +113,14 @@
           >
         </label>
         <label class="form-field">
-            What time do you go to bed?
+          What time do you go to bed?
           <input 
             type="time" 
             name="whattimedoyougotobed?" 
-            placeholder="--:--:-- --"
           >
         </label>
         <label class="form-field">
-            What are your favorite brand of car?
+          What are your favorite brand of car?
 
           <select 
             type="text" 
@@ -137,14 +133,14 @@
           </select>
         </label>
         <label class="form-field">
-            How do you rate our work?
+          How do you rate our work?
           <input 
             type="range" 
             name="howdoyourateourwork"
           >
         </label>
       </fieldset>
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>Additional info:</legend>
         <label class="form-field">
           Comments:
