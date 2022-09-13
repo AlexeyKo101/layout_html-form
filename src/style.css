@@ -1,13 +1,13 @@
 .form-field {
   display: block;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .fieldset {
   margin-bottom: 20px;
-  /*padding-bottom: 0;*/
+  padding-bottom: 0;
 }
 
 .last-field {
-  margin-bottom: 0;
+  margin-bottom: 10;
 }
