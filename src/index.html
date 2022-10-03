@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
-    <form action="catalog" method="post">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="fieldset">
         <legend>Personal information</legend>
 
@@ -36,7 +35,7 @@
           How old are you?
           <input 
             type="number" 
-            name="howoldareyou" 
+            name="age" 
             value="12"
             min="1"
             max="100" 
@@ -47,7 +46,7 @@
           Full date of birth:
           <input 
             type="date" 
-            name="dateofBirth" 
+            name="dateOfBirth" 
             placeholder="mm/dd/yyyy" 
             required
           >
@@ -56,7 +55,7 @@
           I accept the term of the agreement
           <input 
             type="checkbox" 
-            name="termoftheAgreement" 
+            name="termOfTheAgreement" 
             required
           >
         </label> 
@@ -68,7 +67,7 @@
           E-mail:
           <input 
             type="email" 
-            name="e-mail" 
+            name="email" 
             placeholder="email@example.com" 
             required
           >
@@ -86,7 +85,7 @@
       </fieldset>
       <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
-        <div class="form-field">
+        <label class="form-field">
           Do you love cats?
           <label>
             <input 
@@ -105,19 +104,19 @@
             >
             No
           </label>
-        </div>
+        </label>
         <label class="form-field">
           What is your favorite color?
           <input 
             type="color" 
-            name="favoriteColor?"
+            name="favoriteColor"
           >
         </label>
         <label class="form-field">
           What time do you go to bed?
           <input 
             type="time" 
-            name="timeGotoBed?" 
+            name="timeGoToBed" 
           >
         </label>
         <label class="form-field">
@@ -136,7 +135,7 @@
           How do you rate our work?
           <input 
             type="range" 
-            name="rateourWork"
+            name="rateOurWork"
           >
         </label>
       </fieldset>
@@ -148,7 +147,7 @@
         </label>
         <label class="form-field last-field">
           Would you recommend us?
-          <select name="us">
+          <select name="recomendUs">
             <option value="yes">Yes</option>
             <option value="no">No</option>
           </select>
